@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  app:
+    # This line uses your Docker ID
+    image: musagithub1/mock-interview-app:latest
+    
+    build: .
+    container_name: mock-interview-app
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./.streamlit/secrets.toml:/app/.streamlit/secrets.toml

@@ -1,0 +1,19 @@
+# Python virtual environment
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE/Editor config files
+.vscode/
+.idea/
+
+# --- CRITICAL ---
+# Ignore your secret keys file!
+# Do NOT push your API keys to GitHub.
+.streamlit/secrets.toml
+
+# Ignore Docker-related build files (if any)
+.dockerignore
