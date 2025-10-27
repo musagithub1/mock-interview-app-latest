@@ -330,6 +330,33 @@ mock-interview-app/
 ├── 📂 utils/                   # Utility modules (if applicable)
 └── 📂 assets/                  # Images, icons, etc. (if applicable)
 ```
+graph TD
+    subgraph User Interaction (Client-side)
+        A[User's Browser]
+    end
+
+    subgraph Your Application (Docker Container)
+        B(Streamlit App)
+    end
+
+    subgraph External Services
+        C[OpenRouter (LLMs: GPT, Claude, etc.)]
+        D[Firebase Realtime Database (History Storage)]
+    end
+
+    %% Define all application flows
+    A -- "1. Configure Interview & Submit Answer" --> B
+    B -- "2. Request AI Question/Feedback/Evaluation" --> C
+    C -- "3. AI Response" --> B
+    B -- "4. Save Interview Data" --> D
+    D -- "5. Retrieve Interview History" --> B
+    B -- "6. Display App UI & History" --> A
+
+    %% Node Styling
+    style A fill:#D4E6F1,stroke:#3498DB,stroke-width:2px,color:#2C3E50
+    style B fill:#AED6F1,stroke:#2E86C1,stroke-width:2px,color:#2C3E50
+    style C fill:#FADBD8,stroke:#CB4335,stroke-width:2px,color:#2C3E50
+    style D fill:#D1F2EB,stroke:#27AE60,stroke-width:2px,color:#2C3E50
 
 ---
 
