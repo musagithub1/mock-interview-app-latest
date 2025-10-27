@@ -330,6 +330,7 @@ mock-interview-app/
 ├── 📂 utils/                   # Utility modules (if applicable)
 └── 📂 assets/                  # Images, icons, etc. (if applicable)
 ```
+```mermaid
 graph TD
     subgraph User Interaction (Client-side)
         A[User's Browser]
