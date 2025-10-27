@@ -332,6 +332,9 @@ mock-interview-app/
 ```
 # System Architecture Flow
 
+## System Architecture Flow
+
+```mermaid
 graph TD
     subgraph "User Interaction (Client-side)"
         A["User's Browser"]
@@ -359,6 +362,7 @@ graph TD
     style B fill:#AED6F1,stroke:#2E86C1,stroke-width:2px,color:#2C3E50
     style C fill:#FADBD8,stroke:#CB4335,stroke-width:2px,color:#2C3E50
     style D fill:#D1F2EB,stroke:#27AE60,stroke-width:2px,color:#2C3E50
+
 
 
 ---
