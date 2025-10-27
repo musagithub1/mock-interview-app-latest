@@ -123,8 +123,8 @@ Get up and running in **less than 5 minutes**!
 
 ```bash
 # Clone the repository
-git clone https://github.com/musagithub1/mock-interview-app.git
-cd mock-interview-app
+git clone https://github.com/musagithub1/mock-interview-app-latest.git
+cd mock-interview-app-latest
 
 # Create secrets file (see Configuration section)
 mkdir -p .streamlit
@@ -201,8 +201,8 @@ docker run -p 8501:8501 `
 #### Step 1: Clone & Setup Environment
 
 ```bash
-git clone https://github.com/musagithub1/mock-interview-app.git
-cd mock-interview-app
+git clone https://github.com/musagithub1/mock-interview-app-latest.git
+cd mock-interview-app-latest
 
 # Create virtual environment
 python3 -m venv venv
@@ -341,7 +341,7 @@ Contributions are welcome! Whether it's bug fixes, feature additions, or documen
 
 1. **Fork the Repository**
    ```bash
-   git clone https://github.com/your-username/mock-interview-app.git
+   git clone https://github.com/your-username/mock-interview-app-latest.git
    ```
 
 2. **Create a Feature Branch**
@@ -400,7 +400,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ```
 MIT License
 
-Copyright (c) 2025 Musa
+Copyright (c) 2024 Musa
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -424,8 +424,8 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 **Musa**
 
 - 🐙 GitHub: [@musagithub1](https://github.com/musagithub1)
-- 📧 Email: raja.musa.khan035@gmail.com
-- 💼 LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/mussakhan-ai/) 
+- 📧 Email: your.email@example.com *(optional - add if you want)*
+- 💼 LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile) *(optional)*
 
 ---
 
